@@ -57,6 +57,13 @@ To build the Docker image, run:
 docker-compose build
 ```
 
+Create the logs directory if its not already created by running the following command in the root of the project:
+```bash
+mkdir logs
+```
+
+Also make sure the `.env` file is created and correctly filled.
+
 to start the application, run:
 ```bash
 docker-compose up
